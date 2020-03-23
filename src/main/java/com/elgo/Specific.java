@@ -2,18 +2,20 @@ package com.elgo;
 
 public class Specific {
 
-    public int Plus(int a, int b) {
+    public static Integer addition(int a, int b) {
         return a + b;
     }
 
-    public int Moins(int a, int b) {
-        return a - b;
+    public static Integer soustraction(int a, int b) {
+        return b - a;
     }
 
-    public int Mult(int a, int b) {
+    public static Integer multiplication(int a, int b) {
         return a * b;
     }
-    public int Div(int a, int b) {
-        return a / b;
+    public static Integer division(int a, int b) {
+        if (a==0)
+            System.out.println("Opération Impossible. Division By Zéro Exception");
+        return b / a;
     }
 }
