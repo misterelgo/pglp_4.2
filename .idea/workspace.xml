@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc24138a-fe03-4772-8491-27795410cb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/checkstyle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pglp_4.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pglp_4.2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Specific.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Specific.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pglp_3.2/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pglp_3.3/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,6 +58,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn site" />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -115,26 +118,26 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.31.1366.737@0.31.1366.737" timestamp="1584825518724" />
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1585232422940">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1585235623808">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1585232422940" />
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585234047988">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1585235623808" />
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585235870961">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585234047988" />
-    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585234047984">
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585235870961" />
+    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585235870960">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585234047984" />
-    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585234047983">
+    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585235870960" />
+    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585235870960">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585234047983" />
-    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585234047988">
+    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585235870960" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585235870961">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585234047988" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585235870961" />
     <state x="343" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1585231437421">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
@@ -143,10 +146,10 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="429" y="111" width="508" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.31.1366.737@0.31.1366.737" timestamp="1584824620996" />
-    <state x="342" y="177" width="672" height="677" key="run.anything.popup" timestamp="1585234048027">
+    <state x="342" y="177" width="672" height="677" key="run.anything.popup" timestamp="1585235870996">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="342" y="177" width="672" height="677" key="run.anything.popup/0.31.1366.737@0.31.1366.737" timestamp="1585234048027" />
+    <state x="342" y="177" width="672" height="677" key="run.anything.popup/0.31.1366.737@0.31.1366.737" timestamp="1585235870996" />
     <state x="342" y="46" width="670" height="676" key="search.everywhere.popup" timestamp="1584968670051">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
