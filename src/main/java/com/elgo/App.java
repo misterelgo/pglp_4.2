@@ -19,10 +19,15 @@ public class App
         Interpretateur genCommand = new Interpretateur();
 
         genCommand.registerCommand("undo", undoCommand);
-        genCommand.runCommand("undo");
+
 
         //genCommand.registerCommand("quit", quitProgram);
 
         //genCommand.runCommand("quit");
+
+        //Testing the undo command
+        genCommand.addToStack(10);
+        genCommand.addToStack(5);
+        genCommand.runCommand("undo");
     }
 }

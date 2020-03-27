@@ -1,7 +1,10 @@
 package com.elgo;
 
+import java.util.Stack;
+
 public class Undo implements GenericCommands {
 
+    protected Stack history;
     Generic undoCommand;
 
     public  Undo(Generic ctlrC_Command){

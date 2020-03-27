@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc24138a-fe03-4772-8491-27795410cb25" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pglp_4.2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pglp_4.2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pglp_3.3/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -110,34 +115,34 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="366" y="128" width="634" height="550" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.31.1366.737@0.31.1366.737" timestamp="1585230927456" />
-    <state x="440" y="260" width="486" height="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584825612358">
+    <state x="440" y="260" width="486" height="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585349073161">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="440" y="260" width="486" height="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.31.1366.737@0.31.1366.737" timestamp="1584825612358" />
+    <state x="440" y="260" width="486" height="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.31.1366.737@0.31.1366.737" timestamp="1585349073161" />
     <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584825518724">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.31.1366.737@0.31.1366.737" timestamp="1584825518724" />
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1585235623808">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1585254660646">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1585235623808" />
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585235870961">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1585254660646" />
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585256865051">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585235870961" />
-    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585235870960">
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585256865051" />
+    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585256865050">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585235870960" />
-    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585235870960">
+    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585256865050" />
+    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585256865050">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585235870960" />
-    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585235870961">
+    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585256865050" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585256865050">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585235870961" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585256865050" />
     <state x="343" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1585231437421">
       <screen x="0" y="31" width="1366" height="737" />
     </state>

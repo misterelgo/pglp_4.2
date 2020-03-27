@@ -1,5 +1,7 @@
 package com.elgo;
 
+import java.util.Stack;
+
 public class Generic {
 
     public void Quit() {
