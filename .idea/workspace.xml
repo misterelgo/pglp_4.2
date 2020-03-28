@@ -3,15 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="bc24138a-fe03-4772-8491-27795410cb25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Specific.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/SpecificCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SpecificCommands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,9 +158,9 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="342" y="177" width="672" height="677" key="run.anything.popup/0.31.1366.737@0.31.1366.737" timestamp="1585235870996" />
-    <state x="342" y="46" width="670" height="676" key="search.everywhere.popup" timestamp="1584968670051">
+    <state x="342" y="46" width="672" height="676" key="search.everywhere.popup" timestamp="1585433401413">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="342" y="46" width="670" height="676" key="search.everywhere.popup/0.31.1366.737@0.31.1366.737" timestamp="1584968670051" />
+    <state x="342" y="46" width="672" height="676" key="search.everywhere.popup/0.31.1366.737@0.31.1366.737" timestamp="1585433401413" />
   </component>
 </project>
