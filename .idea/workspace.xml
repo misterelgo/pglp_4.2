@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc24138a-fe03-4772-8491-27795410cb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/SpecificCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SpecificCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elgo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elgo/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +76,8 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.elgo.App" />
+    <configuration name="CalculatriceRPN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.elgo.CalculatriceRPN" />
       <module name="pglp_4.2" />
       <extension name="coverage">
         <pattern>
@@ -86,7 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.CalculatriceRPN" />
       </list>
     </recent_temporary>
   </component>
@@ -119,30 +124,34 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="440" y="260" width="486" height="298" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.31.1366.737@0.31.1366.737" timestamp="1585349073161" />
-    <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584825518724">
+    <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585412470717">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.31.1366.737@0.31.1366.737" timestamp="1584825518724" />
+    <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.31.1366.737@0.31.1366.737" timestamp="1585412470717" />
     <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1585254660646">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1585254660646" />
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585256865051">
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585412648182">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585256865051" />
-    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585256865050">
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585412648182" />
+    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585412648182">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585256865050" />
-    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585256865050">
+    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585412648182" />
+    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585412648181">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585256865050" />
-    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585256865050">
+    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585412648181" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585412648182">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585256865050" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585412648182" />
+    <state x="216" y="60" width="934" height="687" key="Maven.ArtifactSearchDialog" timestamp="1585418322672">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="216" y="60" width="934" height="687" key="Maven.ArtifactSearchDialog/0.31.1366.737@0.31.1366.737" timestamp="1585418322672" />
     <state x="343" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1585231437421">
       <screen x="0" y="31" width="1366" height="737" />
     </state>

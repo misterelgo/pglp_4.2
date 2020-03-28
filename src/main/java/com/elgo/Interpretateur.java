@@ -6,12 +6,13 @@ import java.util.Stack;
 
 public class Interpretateur {
 
-
     private int a, b;
 
-    private final HashMap<String, Commands> commandMap = new HashMap<>();
+    protected final HashMap<String, Commands> commandMap = new HashMap<>();
 
-    private Stack<Integer> pile = new Stack<>();
+    protected Stack<Integer> pile = new Stack<>();
+
+    protected Stack <String> history = new Stack<>();
 
     public void registerCommand(String commandName, Commands command){
         commandMap.put(commandName, command);

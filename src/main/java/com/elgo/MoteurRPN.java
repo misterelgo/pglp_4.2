@@ -1,12 +1,8 @@
 package com.elgo;
 
-import java.util.Stack;
-
-public class MoteurRPN {
+public class MoteurRPN extends Interpretateur {
     //Enregistrement des operandes
-    //pile pour stocker les operandes
-    private Stack <Integer> pile = new Stack<>();
-    private Stack <Integer> history = new Stack<>();
+    //On utilise les piles au niveau de Interpretateur pour stocker les operandes
 
     //Applliquer une operation sur les operandes
 
@@ -14,5 +10,6 @@ public class MoteurRPN {
 
 
     //Commandes specifiques pour les operations elementaires
-    private Specific specifiOp = new Specific();
+
+
 }
