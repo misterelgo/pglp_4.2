@@ -4,17 +4,14 @@
     <list default="true" id="bc24138a-fe03-4772-8491-27795410cb25" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Specific.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/SpecificCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SpecificCommands.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Undo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/elgo/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/elgo/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,10 +109,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="113" width="384" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1584908067301">
+    <state x="491" y="113" width="384" height="580" key="#com.intellij.ide.util.MemberChooser" timestamp="1585430553575">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="491" y="113" width="384" height="580" key="#com.intellij.ide.util.MemberChooser/0.31.1366.737@0.31.1366.737" timestamp="1584908067301" />
+    <state x="491" y="113" width="384" height="580" key="#com.intellij.ide.util.MemberChooser/0.31.1366.737@0.31.1366.737" timestamp="1585430553575" />
     <state x="366" y="128" width="634" height="550" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585230927456">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
@@ -160,6 +157,10 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="429" y="111" width="508" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.31.1366.737@0.31.1366.737" timestamp="1584824620996" />
+    <state x="0" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1585430495244">
+      <screen x="0" y="31" width="1366" height="737" />
+    </state>
+    <state x="0" y="31" key="refactoring.ChangeSignatureDialog/0.31.1366.737@0.31.1366.737" timestamp="1585430495244" />
     <state x="342" y="177" width="672" height="677" key="run.anything.popup" timestamp="1585235870996">
       <screen x="0" y="31" width="1366" height="737" />
     </state>

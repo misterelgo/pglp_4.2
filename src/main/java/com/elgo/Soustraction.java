@@ -4,7 +4,7 @@ public class Soustraction implements  SpecificCommands {
     Specific commandMoins;
 
     int a, b;
-    public  Soustraction(Specific sousCommand){
+    public  Soustraction(Specific sousCommand, MoteurRPN moteurRPN){
         commandMoins = sousCommand;
     }
 

@@ -5,7 +5,7 @@ public class Multiplication implements SpecificCommands {
 
     int a, b;
 
-    public  Multiplication(Specific multiplication){
+    public  Multiplication(Specific multiplication, MoteurRPN moteurRPN){
         multCommand = multiplication;
     }
 

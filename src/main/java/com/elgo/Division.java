@@ -5,7 +5,7 @@ public class Division implements  SpecificCommands {
 
     int a, b;
 
-    public  Division(Specific divisionCommand){
+    public  Division(Specific divisionCommand, MoteurRPN moteurRPN){
         divCommand = divisionCommand;
     }
 
@@ -13,5 +13,10 @@ public class Division implements  SpecificCommands {
     @Override
     public void Apply() {
         divCommand.division(a, b);
+    }
+
+    @Override
+    public Double calculations(Double a, Double b) {
+        return null;
     }
 }

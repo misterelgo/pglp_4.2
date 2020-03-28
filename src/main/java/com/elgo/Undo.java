@@ -4,14 +4,20 @@ import java.util.Stack;
 
 public class Undo implements GenericCommands {
 
-    Generic undoCommand;
+    private final Generic undoCommand;
 
-    public  Undo(Generic ctlrC_Command){
-        undoCommand = ctlrC_Command;
+    private final Stack <Double> history;
+
+    private final MoteurRPN moteurRPN;
+
+    public  Undo(Generic CommandUndo, Stack<Double> stack, MoteurRPN moteur){
+        undoCommand = CommandUndo;
+        history = stack;
+        moteurRPN = moteur;
     }
 
     @Override
     public void Apply() {
-        undoCommand.Undo();
+        undoCommand.Undo(history, moteurRPN);
     }
 }

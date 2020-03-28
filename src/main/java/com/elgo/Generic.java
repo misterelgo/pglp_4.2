@@ -10,8 +10,20 @@ public class Generic {
     }
 
 
-    public void Undo() {
+    public void Undo(Stack<Double> history, MoteurRPN moteur) {
         System.out.println(" You are doing a Ctrl C bruhh! ");
+        int i = 0;
+        if (history.size()>1){
+            moteur.depiler();
+            history.remove(history.size()-1);
+            while (i < 2){
+                moteur.enregistrer(history.pop());
+                i++;
+            }
+            while (!history.empty()){
+                history.pop();
+            }
+        }
 
     }
 }
