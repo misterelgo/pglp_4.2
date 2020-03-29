@@ -19,6 +19,7 @@ public class Multiplication implements SpecificCommands {
         try{
             a = moteurRPN.depiler();
             empty++;
+            b = moteurRPN.depiler();
             moteurRPN.enregistrer(this.calculations(b, a));
         }catch (Exception e){
             System.out.println("Operand missing");

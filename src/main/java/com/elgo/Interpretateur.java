@@ -10,26 +10,24 @@ public class Interpretateur {
 
     protected final HashMap<String, Commands> commandMap = new HashMap<>();
 
-    protected Stack<Integer> pile = new Stack<>();
-
-    protected Stack <String> history = new Stack<>();
-
     public void registerCommand(String commandName, Commands command){
         commandMap.put(commandName, command);
-        System.out.println(" The command added is: " + commandName);
-    }
-
-    public void addToStack(int a){
-        pile.push((int) a);
+        //System.out.println(" The command added is: " + commandName);
     }
 
     public void runCommand(String commandName){
         Commands command = commandMap.get(commandName);
-        if (command == null){
-            throw new IllegalStateException(" No command registered for " + commandName);
-        }
-        else {
-            command.Apply();
+        System.out.println(commandName);
+        try {
+            if (command == null){
+                System.out.println("Invalid command! ");
+                throw new IllegalStateException();
+            }else {
+                command.Apply();
+            }
+
+        }catch (IllegalStateException e){
+
         }
     }
 }

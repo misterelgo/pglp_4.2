@@ -1,12 +1,12 @@
 package com.elgo;
 
-public class Addition implements SpecificCommands {
+import java.util.EmptyStackException;
 
+public class Addition implements SpecificCommands {
 
     private final Specific addCommand;
     private final MoteurRPN moteurRPN;
 
-    int a, b;
     public  Addition(Specific additionCommand, MoteurRPN moteur){
         addCommand = additionCommand;
         moteurRPN = moteur;
@@ -20,10 +20,13 @@ public class Addition implements SpecificCommands {
         int empty = 0;
         try{
             a = moteurRPN.depiler();
+            //System.out.println(a);
+            empty++;
+            b = moteurRPN.depiler();
             empty++;
             moteurRPN.enregistrer(this.calculations(b, a));
-        }catch (Exception e){
-            System.out.println("Operand missing");
+        }catch (EmptyStackException e){
+            System.out.println("Operand missing!");
             if (empty == 1){
                 moteurRPN.enregistrer(a);
             }

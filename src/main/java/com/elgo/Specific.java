@@ -7,13 +7,13 @@ public class Specific {
     }
 
     public static double soustraction(double a, double b) {
-        return b - a;
+        return a - b;
     }
 
     public static double multiplication(double a, double b) {
         return a * b;
     }
     public static double division(double a, double b) {
-        return b / a;
+        return a / b;
     }
 }

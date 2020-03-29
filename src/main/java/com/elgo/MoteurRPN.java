@@ -42,14 +42,14 @@ public class MoteurRPN extends Interpretateur {
 
 
     public void enregistrer(double operand){
-        stack.push(operand);
+        this.stack.push(operand);
     }
 
     public double depiler(){
-        if (stack.empty()){
+        if (stack.isEmpty()){
             throw new EmptyStackException();
         }else {
-            history.push(stack.peek());
+            this.history.push(stack.peek());
             return stack.pop();
         }
     }
@@ -58,13 +58,14 @@ public class MoteurRPN extends Interpretateur {
         interpreter.runCommand(command);
     }
 
-    public void affiche(){
-        System.out.printf("Current expression : \t");
-        if (stack.empty()){
-            for (int i = 0; i < stack.size(); i++){
-                System.out.println(stack.elementAt(i)+"\t");
+    public void printStack(){
+        System.out.printf("Current expression: \t");
+        if (!this.stack.isEmpty()){
+            for (int i = 0; i < this.stack.size(); i++){
+                System.out.print(this.stack.elementAt(i)+"\t");
             }
         }
+        System.out.println("");
     }
 
 

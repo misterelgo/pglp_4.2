@@ -5,13 +5,13 @@ import java.util.Stack;
 public class Generic {
 
     public void Quit() {
-        System.out.println(" You are quitting the program! ");
+        System.out.println(" Good bye! Thanks Dude ");
         System.exit(0);
     }
 
 
     public void Undo(Stack<Double> history, MoteurRPN moteur) {
-        System.out.println(" You are doing a Ctrl C bruhh! ");
+        System.out.println(" You canceled your last operation ");
         int i = 0;
         if (history.size()>1){
             moteur.depiler();

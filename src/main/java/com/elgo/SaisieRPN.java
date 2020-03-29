@@ -1,28 +1,30 @@
 package com.elgo;
 import java.util.*;
 public class SaisieRPN {
-    private static Scanner input = new Scanner(System.in);
+    private Scanner input = new Scanner(System.in);
     private  MoteurRPN moteurRPN = new MoteurRPN();
     private String inputValue =  new String();
 
-    public void acceuil (){
+    public void acceuil(){
         moteurRPN.moteurInit();
-
+        System.out.printf("Enter an operand or command : ");
         do {
-            inputValue = input.nextLine();
+            this.inputValue = input.nextLine();
             if (verifInput(inputValue)== false){
                 moteurRPN.apply(inputValue);
             }else {
+                System.out.println(Double.parseDouble(inputValue));
                 moteurRPN.enregistrer(Double.parseDouble(inputValue));
             }
-            moteurRPN.affiche();
+            moteurRPN.printStack();
         }while (true);
 
     }
 
     private boolean verifInput(String value){
+        double verif;
         try {
-            double check = Double.parseDouble(value);
+            verif = Double.parseDouble(value);
         }catch (Exception e){
             return false;
         }
