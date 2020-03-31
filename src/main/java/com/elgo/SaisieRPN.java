@@ -13,7 +13,7 @@ public class SaisieRPN {
             if (verifInput(inputValue)== false){
                 moteurRPN.apply(inputValue);
             }else {
-                System.out.println(Double.parseDouble(inputValue));
+                //System.out.println(Double.parseDouble(inputValue));
                 moteurRPN.enregistrer(Double.parseDouble(inputValue));
             }
             moteurRPN.printStack();

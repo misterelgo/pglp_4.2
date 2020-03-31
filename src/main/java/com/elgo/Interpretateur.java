@@ -17,7 +17,7 @@ public class Interpretateur {
 
     public void runCommand(String commandName){
         Commands command = commandMap.get(commandName);
-        System.out.println(commandName);
+        //System.out.println(commandName);
         try {
             if (command == null){
                 System.out.println("Invalid command! ");

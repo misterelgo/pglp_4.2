@@ -2,30 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc24138a-fe03-4772-8491-27795410cb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpecificTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Addition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/CalculatriceRPN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Division.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Generic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Interpretateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/MoteurRPN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Multiplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/SaisieRPN.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Soustraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/Specific.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/elgo/Specific.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/elgo/commandType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Addition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Addition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/CalculatriceRPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/CalculatriceRPN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Division.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Division.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Generic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Generic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Interpretateur.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Interpretateur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/MoteurRPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/MoteurRPN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Multiplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Multiplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/SaisieRPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/SaisieRPN.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Soustraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Soustraction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/Specific.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/elgo/Specific.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/elgo/commandType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SpecificTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SpecificTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +47,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pglp_3.5/pom.xml" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -86,7 +67,7 @@
       <command value="mvn site" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpecificTest.addition">
+  <component name="RunManager" selected="Application.CalculatriceRPN">
     <configuration name="CalculatriceRPN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.elgo.CalculatriceRPN" />
       <module name="pglp_4.2" />
@@ -112,8 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpecificTest.addition" />
         <item itemvalue="Application.CalculatriceRPN" />
+        <item itemvalue="JUnit.SpecificTest.addition" />
       </list>
     </recent_temporary>
   </component>
@@ -150,34 +131,34 @@
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="0" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.31.1366.737@0.31.1366.737" timestamp="1585412470717" />
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1585475760245">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl" timestamp="1585685351031">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1585475760245" />
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585481092794">
+    <state x="466" y="160" width="434" height="487" key="FileChooserDialogImpl/0.31.1366.737@0.31.1366.737" timestamp="1585685351031" />
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom" timestamp="1585486102744">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585481092794" />
-    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585481092793">
+    <state width="1320" height="174" key="GridCell.Tab.0.bottom/0.31.1366.737@0.31.1366.737" timestamp="1585486102744" />
+    <state width="1320" height="174" key="GridCell.Tab.0.center" timestamp="1585486102743">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585481092793" />
-    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585481092792">
+    <state width="1320" height="174" key="GridCell.Tab.0.center/0.31.1366.737@0.31.1366.737" timestamp="1585486102743" />
+    <state width="1320" height="174" key="GridCell.Tab.0.left" timestamp="1585486102743">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585481092792" />
-    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585481092793">
+    <state width="1320" height="174" key="GridCell.Tab.0.left/0.31.1366.737@0.31.1366.737" timestamp="1585486102743" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right" timestamp="1585486102744">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585481092793" />
+    <state width="1320" height="174" key="GridCell.Tab.0.right/0.31.1366.737@0.31.1366.737" timestamp="1585486102744" />
     <state x="216" y="60" width="934" height="687" key="Maven.ArtifactSearchDialog" timestamp="1585418322672">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
     <state x="216" y="60" width="934" height="687" key="Maven.ArtifactSearchDialog/0.31.1366.737@0.31.1366.737" timestamp="1585418322672" />
-    <state x="343" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1585231437421">
+    <state x="343" y="229" key="com.intellij.ide.util.TipDialog" timestamp="1585685332463">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
-    <state x="343" y="229" key="com.intellij.ide.util.TipDialog/0.31.1366.737@0.31.1366.737" timestamp="1585231437421" />
+    <state x="343" y="229" key="com.intellij.ide.util.TipDialog/0.31.1366.737@0.31.1366.737" timestamp="1585685332463" />
     <state x="429" y="111" width="508" height="585" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1585480660234">
       <screen x="0" y="31" width="1366" height="737" />
     </state>
